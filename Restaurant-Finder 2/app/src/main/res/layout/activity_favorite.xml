@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    tools:context= "com.example.jxq48.restaurant_finder.presentation.UserHost.myFavoriteList.FavoriteListActivity"
+    android:background="@drawable/background1">
+
+
+
+    <TableRow
+        android:id="@+id/tableRow0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </TableRow>
+
+    <FrameLayout
+        android:id="@+id/displayMyfavorite_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </FrameLayout>
+
+</LinearLayout>
+

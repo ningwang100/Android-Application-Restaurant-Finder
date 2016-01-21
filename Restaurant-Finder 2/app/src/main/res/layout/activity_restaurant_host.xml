@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background2"
+    android:id="@+id/scrollView">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="159dp"
+        android:layout_marginStart="@dimen/abc_action_bar_icon_vertical_padding_material"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageView">
+    </ImageView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginStart="@dimen/abc_action_bar_icon_vertical_padding_material"
+            android:background="#ff000000">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/wallet_holo_blue_light"
+                android:textSize="30sp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold|italic"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/host_name"
+                android:layout_gravity="left" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="5dp"
+                android:background="#ffdaffdb"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColorLink="@color/wallet_highlighted_text_holo_light"
+                android:id="@+id/host_address"
+                android:textColor="#ffffffff"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="left" />
+            <TableRow android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_gravity="end" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffffff"
+                    android:id="@+id/cuisine"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Category: "
+                    android:layout_gravity="left" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffffff"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/host_cuisine"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_gravity="left" />
+            </TableRow>
+            <TableRow android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="end" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffffff"
+                    android:id="@+id/price"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Price: "
+                    android:layout_marginRight="8dp"
+                    android:layout_gravity="left" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:textColor="#ffffffff"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/host_price"
+                    android:layout_gravity="left" />
+            </TableRow>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="5dp"
+                android:background="#ffdaffdb"/>
+
+            <TableRow android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="end" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffffff"
+                    android:id="@+id/phone"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Phone number: "
+                    android:layout_gravity="left" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:autoLink="phone"
+                    android:id="@+id/host_phone"
+                    android:layout_gravity="left" />
+            </TableRow>
+
+            <TableRow android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="end">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffffff"
+                    android:id="@+id/website"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Official website: "
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/host_website"
+                    android:autoLink="web"
+                    android:layout_gravity="left" />
+            </TableRow>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginStart="@dimen/abc_action_bar_icon_vertical_padding_material"
+            android:text="Comment:"/>
+        <fragment
+            android:id="@+id/fragment_show_comments"
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:layout_marginStart="@dimen/abc_action_bar_icon_vertical_padding_material"
+            android:name = "com.example.jxq48.restaurant_finder.presentation.RestaurantHost.CommentsFragment"
+            tools:layout="@layout/fragment_comments" />
+    </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>

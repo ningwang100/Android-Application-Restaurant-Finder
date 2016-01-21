@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/container"
+    tools:context="com.example.jxq48.restaurant_finder.presentation.UserHost.Myphotos.showPhotosActivity">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    <GridView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:id="@+id/gridView"
+        android:numColumns="auto_fit"
+        android:columnWidth="90dp"
+        android:horizontalSpacing="1dp"
+ />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/detail_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#eeeeee"
+            android:visibility="invisible"
+/>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

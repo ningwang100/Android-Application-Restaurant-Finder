@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="com.example.jxq48.restaurant_finder.presentation.LoginPage.InitializeDB">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/Administrator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Administrator" />
+
+        <EditText
+            android:id="@+id/etAdministrator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Please enter Administrator name"
+            android:drawableLeft="@drawable/portrait"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:id="@+id/Adpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Password" />
+
+        <EditText
+            android:id="@+id/etverifyPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Please enter correct Administrator password"
+            android:inputType="textPassword" />
+        <Button
+            android:id="@+id/verify"
+            android:text="Post Obtainable Restaurant Information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</FrameLayout>

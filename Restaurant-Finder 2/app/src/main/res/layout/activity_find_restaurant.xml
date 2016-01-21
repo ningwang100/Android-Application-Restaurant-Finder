@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/find_restaurant"
+    android:background="@drawable/background1">
+
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/tableRow0">
+        <TextView android:id="@+id/usernameTextView"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Please input Restaurant name/address/cuisine:"
+            android:gravity="left" android:paddingRight="5dp">
+        </TextView>
+    </TableRow>
+
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:id="@+id/tableRow1">
+
+        <EditText android:layout_width="wrap_content"
+            android:id="@+id/searchEditText"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        </EditText>
+
+    </TableRow>
+
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:id="@+id/tableRow2"
+        android:weightSum="1">
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Find by Address"
+            android:id="@+id/AddressButton"
+            android:onClick="selectFrag"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.33" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Find by Name"
+            android:id="@+id/NameButton"
+            android:onClick="selectFrag"
+            android:layout_weight="0.33" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Find by Cuisine"
+            android:id="@+id/CuisineButton"
+            android:onClick="selectFrag"
+            android:layout_weight="0.33" />
+    </TableRow>
+    <ListView
+        android:id="@+id/restaurants_list"
+        android:fastScrollEnabled="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+</LinearLayout>

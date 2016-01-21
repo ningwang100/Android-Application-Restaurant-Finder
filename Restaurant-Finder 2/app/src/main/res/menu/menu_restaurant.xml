@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".RestaurantHostActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_Take_Picture"
+        android:title="@string/Take_Picture"
+        android:icon="@drawable/camera"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/action_addComment"
+        android:title="@string/Add_Comments"
+        android:icon="@drawable/comment"
+        tools:ignore="AppCompatResource" />
+
+    <item android:id="@+id/action_Add_Favorite"
+        android:title="@string/Add_Favorite"
+        android:icon="@drawable/favorite"
+        tools:ignore="AppCompatResource"/>
+
+    <item android:id="@+id/action_Back"
+        android:title="@string/Back"
+        android:icon="@drawable/back"
+        tools:ignore="AppCompatResource"/>
+</menu>

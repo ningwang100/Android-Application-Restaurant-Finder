@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Restaurant-Finder</string>
+    <string name="Username">Username*</string>
+    <string name="Password">Password*</string>
+
+
+    <string name="favorite_name">My favorite list</string>
+
+    <string name="action_settings">Administrator</string>
+    <string name="Add_Comments">Add Comment</string>
+    <string name="Take_Picture">Camera</string>
+    <string name="Back">Back</string>
+    <string name="Add_Favorite">Add To My Favorite</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_UserHost">User Host</string>
+    <string name="title_activity_RestaurantHostPage">Restaurant Host</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_show_photos">showPhotosActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+
+
+</resources>
